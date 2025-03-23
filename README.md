@@ -1,4 +1,5 @@
-# 🐍 Python-M3GP
+# 🐍 M3GP for ML project 
+Questa progetto è stato realizzato da @ariannaCella e @azzielena per il corso di Machine Learning erogato dell'Università di Parma.
 
 ## 📖 Guida pratica di utilizzo del codice
 
