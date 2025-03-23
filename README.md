@@ -9,7 +9,7 @@ Questa guida descrive passo-passo come impostare ed eseguire il codice M3GP per 
 
 ## 🚀 Installazione progetto
 
-Scaricare e installare il nostro progetto dal repository GitHub:
+Scaricare il nostro progetto dal repository GitHub:
 
 ```bash
 git clone https://github.com/azzielena/M3GP-Project.git
