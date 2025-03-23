@@ -1,5 +1,5 @@
 # 🐍 M3GP for ML project 
-Questo progetto è stato realizzato da **@ariannaCella** e **@azzielena** per il corso di Machine Learning erogato dall'Università di Parma.
+Questo progetto è stato realizzato da **[Arianna Cella](https://github.com/ariannaCella)** ed **[Elena Azzi](https://github.com/azzielena)** per il corso di Machine Learning erogato dall'Università di Parma.
 
 ## 📖 Guida pratica di utilizzo del codice
 
