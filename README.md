@@ -1,12 +1,12 @@
-# Python-M3GP
+# 🐍 Python-M3GP
 
-## Guida pratica di utilizzo del codice
+## 📖 Guida pratica di utilizzo del codice
 
 Questa guida descrive passo-passo come impostare ed eseguire il codice M3GP per effettuare esperimenti sui dataset desiderati.
 
 ---
 
-## Installazione progetto
+## 🚀 Installazione progetto
 
 Scaricare e installare il nostro progetto dal repository GitHub:
 
@@ -18,16 +18,16 @@ pip install -r requirements.txt
 
 ---
 
-## Organizzazione Cartelle
+## 📂 Organizzazione Cartelle
 
 Il progetto è suddiviso in due cartelle principali:
 
 - **Python-M3GP**: esegue M3GP sui dataset di interesse, generando un file CSV con le metriche calcolate e le migliori hyperfeatures.
 - **Classification_with_hyperfeatures**: per ciascun dataset, crea nuovi dataset arricchiti con le hyperfeatures e confronta i risultati della classificazione tra il dataset originale e quello aumentato, utilizzando tre modelli di Machine Learning (Random Forest, Decision Tree e XGBoost).
 
-### Struttura delle cartelle principali
+### 🏗️ Struttura delle cartelle principali
 
-#### Python-M3GP/
+#### 📁 Python-M3GP/
 ```
 │
 ├── datasets/
@@ -49,7 +49,7 @@ Il progetto è suddiviso in due cartelle principali:
 └── Arguments.py
 ```
 
-#### Classification_with_hyperfeatures/
+#### 📁 Classification_with_hyperfeatures/
 ```
 │
 ├── tabelle_hyperfeatures/
@@ -68,14 +68,14 @@ Il progetto è suddiviso in due cartelle principali:
 
 ---
 
-## Esecuzione Remote Sensing
+## 🌍 Esecuzione Remote Sensing
 
-### 1. Entriamo nella cartella di interesse:
+### 1️⃣ Entriamo nella cartella di interesse:
 ```bash
 cd Python-M3GP
 ```
 
-### 2. Configurazione dei parametri
+### 2️⃣ Configurazione dei parametri
 
 Modificare il file `Arguments.py` per impostare i parametri desiderati:
 
@@ -87,25 +87,23 @@ Modificare il file `Arguments.py` per impostare i parametri desiderati:
 - **FITNESS_TYPE**: scegliere il tipo di fitness (default: Accuracy, consigliato: WAF per migliori performance).
 - **RANDOM_STATE**: 0 per ottenere i nostri risultati (default: 42).
 
-### 3. Esecuzione del codice
-
+### 3️⃣ Esecuzione del codice
 ```bash
 python M3GP_RS_core.py
 ```
 
-### 4. Risultati
+### 4️⃣ Risultati
 
 Al termine delle 30 esecuzioni, verrà prodotto un file CSV contenente tutte le metriche calcolate e salvato nella cartella `results`. I file generati saranno:
 
 - `m3gpWAF_brazil2.csv` per il dataset brazil2.
 - `m3gpWAF_mcd3.csv` per il dataset mcd3.
 
-### 5. Visualizzazione dei risultati
+### 5️⃣ Visualizzazione dei risultati
 
 Utilizzare `visual_results.py` per analizzare le metriche riportate nei file CSV di output, modificando le righe 6,7,8 con il dataset di interesse.
 
-### 6. Creazione dataset aumentati
-
+### 6️⃣ Creazione dataset aumentati
 ```bash
 cd classification_with_hyperfeatures
 python creazioneDataset.py
@@ -113,8 +111,7 @@ python creazioneDataset.py
 
 I nuovi dataset saranno salvati nella cartella `tabelle_hyperfeatures`.
 
-### 7. Classificazione con DT, RF e XGB
-
+### 7️⃣ Classificazione con DT, RF e XGB
 ```bash
 python RS_comparison_classificator.py
 ```
@@ -123,14 +120,14 @@ I risultati ottenuti da ciascun modello ML saranno confrontati tra dataset origi
 
 ---
 
-## Esecuzione Nose
+## 👃 Esecuzione Nose
 
-### 1. Entriamo nella cartella di interesse:
+### 1️⃣ Entriamo nella cartella di interesse:
 ```bash
 cd Python-M3GP
 ```
 
-### 2. Configurazione dei parametri
+### 2️⃣ Configurazione dei parametri
 
 Modificare il file `Arguments.py` per impostare i parametri desiderati:
 
@@ -142,24 +139,22 @@ Modificare il file `Arguments.py` per impostare i parametri desiderati:
 - **FITNESS_TYPE**: scegliere il tipo di fitness (default: Accuracy, consigliato: WAF per migliori performance).
 - **RANDOM_STATE**: 0 per ottenere i nostri risultati (default: 42).
 
-### 3. Esecuzione del codice
-
+### 3️⃣ Esecuzione del codice
 ```bash
 python M3GP_naso_core.py
 ```
 
-### 4. Risultati
+### 4️⃣ Risultati
 
 Al termine delle 30 esecuzioni, verrà prodotto un file CSV contenente tutte le metriche calcolate e salvato nella cartella `results`. Il file generato sarà:
 
 - `m3gpWAF_nose.csv`
 
-### 5. Visualizzazione dei risultati
+### 5️⃣ Visualizzazione dei risultati
 
 Utilizzare `visual_results.py` per analizzare le metriche, modificando le righe 6,7,8 con il dataset di interesse.
 
-### 6. Creazione dataset aumentati
-
+### 6️⃣ Creazione dataset aumentati
 ```bash
 cd classification_with_hyperfeatures
 python creazioneDataset.py
@@ -167,8 +162,7 @@ python creazioneDataset.py
 
 I nuovi dataset saranno salvati nella cartella `tabelle_hyperfeatures`.
 
-### 7. Classificazione con DT, RF e XGB
-
+### 7️⃣ Classificazione con DT, RF e XGB
 ```bash
 python nose_comparison_classificator.py
 ```
@@ -177,7 +171,7 @@ I risultati ottenuti saranno visualizzati con un boxplot e salvati nel file `ris
 
 ---
 
-## Conclusione
+## 🏁 Conclusione
 
 Seguendo questi passaggi, sarà possibile eseguire M3GP sui dataset desiderati, confrontare le prestazioni tra dataset originali e aumentati e analizzare i risultati con metodi di Machine Learning avanzati.
 
