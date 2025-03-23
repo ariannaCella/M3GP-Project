@@ -105,7 +105,7 @@ Al termine delle 30 esecuzioni, verrà prodotto un file CSV contenente tutte le 
 Utilizzare `visual_results.py` per analizzare le metriche riportate nei file CSV di output, modificando le righe 6,7,8 con il dataset di interesse.
 
 ### 6️⃣ Creazione dataset aumentati
-Assicurandosi di specificare nel codice il dataset a cui si vuole far riferimento nei campi dataset_file, hyperfeatures_file e output_folder, eseguire poi il seguente codice per creare i dataset aumentati: 
+Assicurandosi di specificare nel codice il dataset a cui si vuole far riferimento nei campi `dataset_file`, `hyperfeatures_file` e `output_folder`, eseguire poi il seguente codice per creare i dataset aumentati: 
 ```bash
 cd classification_with_hyperfeatures
 python creazioneDataset.py
@@ -157,7 +157,7 @@ Al termine delle 30 esecuzioni, verrà prodotto un file CSV contenente tutte le 
 Utilizzare `visual_results.py` per analizzare le metriche, modificando le righe 6,7,8 con il dataset di interesse.
 
 ### 6️⃣ Creazione dataset aumentati
-Assicurandosi di specificare nel codice il dataset a cui si vuole far riferimento nei campi dataset_file, hyperfeatures_file e output_folder, eseguire poi il seguente codice per creare i dataset aumentati: 
+Assicurandosi di specificare nel codice il dataset a cui si vuole far riferimento nei campi `dataset_file`, `hyperfeatures_file` e `output_folder`, eseguire poi il seguente codice per creare i dataset aumentati: 
 ```bash
 cd classification_with_hyperfeatures
 python creazioneDataset.py
@@ -176,5 +176,5 @@ I risultati ottenuti saranno visualizzati con un boxplot e salvati nel file `ris
 
 ## 🏁 Conclusione
 
-Seguendo questi passaggi, sarà possibile eseguire M3GP sui dataset desiderati, confrontare le prestazioni tra dataset originali e aumentati e analizzare i risultati con metodi di Machine Learning avanzati.
+Seguendo questi passaggi, sarà possibile eseguire M3GP sui dataset desiderati e confrontare le prestazioni tra dataset originali e aumentati con metodi di Machine Learning tradizionali.
 
