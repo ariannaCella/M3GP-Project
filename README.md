@@ -157,6 +157,7 @@ Al termine delle 30 esecuzioni, verrà prodotto un file CSV contenente tutte le 
 Utilizzare `visual_results.py` per analizzare le metriche, modificando le righe 6,7,8 con il dataset di interesse.
 
 ### 6️⃣ Creazione dataset aumentati
+Assicurandosi di specificare nel codice il dataset a cui si vuole far riferimento nei campi dataset_file, hyperfeatures_file e output_folder, eseguire poi il seguente codice per creare i dataset aumentati: 
 ```bash
 cd classification_with_hyperfeatures
 python creazioneDataset.py
