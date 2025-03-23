@@ -12,7 +12,7 @@ Questa guida descrive passo-passo come impostare ed eseguire il codice M3GP per 
 Scaricare e installare il nostro progetto dal repository GitHub:
 
 ```bash
-git clone https://github.com/jespb/Python-M3GP.git
+git clone https://github.com/azzielena/M3GP-Project.git
 cd Python-M3GP
 pip install -r requirements.txt
 ```
