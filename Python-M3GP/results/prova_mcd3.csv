@@ -1,0 +1,54 @@
+Attribute,Run,0,
+
+Training-Accuracy,0,0.88
+Training-Accuracy,1,0.88
+
+Test-Accuracy,0,0.9072164948453608
+Test-Accuracy,1,0.865979381443299
+
+Training-WaF,0,0.8798878829350459
+Training-WaF,1,0.8805821319752898
+
+Test-WaF,0,0.9061108620947259
+Test-WaF,1,0.8689166194525823
+
+Training-Kappa,0,0.817830154731918
+Training-Kappa,1,0.8191479860676967
+
+Test-Kappa,0,0.8597365038560412
+Test-Kappa,1,0.7988514914659435
+
+Training-MSE,0,0
+Training-MSE,1,0
+
+Test-MSE,0,0
+Test-MSE,1,0
+
+Size,0,31
+Size,1,3
+
+Dimensions,0,1
+Dimensions,1,1
+
+Time,0,6.574918508529663
+Time,1,6.609435558319092
+
+Final_Model,0,( X3 / ( ( X5 - ( ( X1 / X4 ) - X5 ) ) + ( X4 - ( ( ( X1 / ( ( X1 * ( X1 / X3 ) ) * X5 ) ) * ( X2 - X5 ) ) + ( X3 - ( X2 / X1 ) ) ) ) ) )
+Final_Model,1,( X5 / X3 )
+
+
+Parameters
+Operators,[('+', 2), ('-', 2), ('*', 2), ('/', 2)]
+Max Initial Depth,6
+Population Size,500
+Max Generation,1
+Tournament Size,5
+Elitism Size,1
+Depth Limit,17
+Minimum Dimensions,1
+Maximum Dimensions,9999
+Wrapped Model,MahalanobisDistanceClassifier
+Fitness Type,WAF
+Threads,1
+Random State,[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+Dataset,mcd3.csv
