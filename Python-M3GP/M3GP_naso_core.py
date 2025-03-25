@@ -14,7 +14,7 @@ warnings.filterwarnings("ignore", category=FutureWarning,
                         module="sklearn")
 
 # Costanti globali
-DATASETS_DIR = "Python-M3GP/datasets/"  # Assicurati di impostare il percorso corretto
+DATASETS_DIR = "datasets/"  # verificare il percorso corretto
 K_FOLDS = 3  # Numero di fold per la cross validation
 
 def is_iterable(obj):
